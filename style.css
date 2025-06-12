@@ -1,0 +1,74 @@
+ /* EN: Base styling for body and container // IT: Stili base per il body e il container */
+    body {
+      background-color: #f8f9fa;
+      padding-top: 60px;
+      padding-bottom: 80px;
+    }
+    .container {
+      max-width: 1000px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    /* EN: Styling for Join Room form // IT: Stile per il form di accesso alla stanza */
+    #joinRoomSection {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    /* EN: Layout for the study room (once joined) // IT: Layout per la study room, dopo l'accesso */
+    #studyRoom {
+      display: none;
+    }
+    #activeUsers {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    /* EN: Styling for active user cards // IT: Stile per le card degli utenti attivi */
+    .user-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 5px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .user-card img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    /* EN: Chat area styling // IT: Stile per l'area chat */
+    #chatMessages {
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      background: #fff;
+      height: 300px;
+      overflow-y: auto;
+      padding: 10px;
+    }
+    .chat-message {
+      margin-bottom: 10px;
+      padding: 5px;
+      background-color: #e9ecef;
+      border-radius: 4px;
+    }
+    /* EN: Study timer styling // IT: Stile per il timer di studio */
+    #timerDisplay {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    /* EN: Fixed footer styling // IT: Stile per il footer fisso */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+    }
