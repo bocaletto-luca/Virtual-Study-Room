@@ -8,6 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![WebSockets](https://img.shields.io/badge/WebSockets-FFD700?style=flat-square&logo=websocket&logoColor=black)
 
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Virtual-Study-Room/index.html)
 ## 📌 Overview
 
 **Virtual-Study-Room** is an innovative **web app** designed to create an engaging online study environment.  
